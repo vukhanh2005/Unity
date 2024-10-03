@@ -1,0 +1,3 @@
+Time  Delta Time: Thời gian giữa các frame
+Ví dụ: Máy ông A 60FPS, mỗi frame cộng với transform 0.05, vậy thì 1 giây sẽ chạy được 60*0.05, và Time Delta Time lúc này là 1/60, nếu mỗi khung hình nhân thêm 1 lượng delta Time đó, thì sẽ khử được độ lệch giữa các máy, tránh việc máy ông B thấp
+FPS hơn

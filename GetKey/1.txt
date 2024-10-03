@@ -1,0 +1,5 @@
+Get Key Down: Đúng tại thời điểm người chơi nhấn phím xuống sẽ trả về giá trị true, nghĩa là tại duy nhất frame mà lúc ấn xuống
+
+Get Key Up: tương tự Get Key Down
+
+Get Key: Nếu giữ phím thì sẽ trả về true tất cả frame đằng sau, không giữ thì trả về false

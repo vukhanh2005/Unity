@@ -1,0 +1,1 @@
+Transform.Translate(movement*time.deltatime): Dùng để thay đổi transform mỗi frame, mỗi frame sẽ cộng thêm 1 vector3 movement, nó giống như transform.position += movement*time.deltatime, khác ở chỗ là translate sẽ giữ nguyên hướng của vật thể

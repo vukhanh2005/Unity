@@ -1,0 +1,5 @@
+Input.mousePosition: trả về 1 vector3 là tọa độ của con trỏ chuột trên màn hình
+Muốn chuyển tọa độ con chuột trên màn hình về tọa độ trong thế giới game ta làm như sau:
+
+Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+Hàm Camera.main.ScreenToWorldPoint(Input.mousePosition) sẽ trả về 1 vector3 chứa tọa độ của con trỏ trong thế giới game

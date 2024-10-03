@@ -1,0 +1,9 @@
+OnCollisionEnter2D: hàm này sẽ bắt sự kiện va chạm, khi đối tượng được gán script va chạm thì sẽ thực thi lệnh trong hàm này
+
+OnCollisionExit2D: khi vật thể không va chạm sẽ thực hiện hàm này
+
+OnCollisionStay2D: khi vật thể có sự ma sát với 1 collider của thằng khác sẽ thực hiện hàm này
+
+3 hàm trên bắt sự kiện va chạm với kiểu collider không phải là trigger
+
+Còn nếu là trigger thì tương tự có 3 hàm như trên

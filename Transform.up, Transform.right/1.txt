@@ -1,0 +1,2 @@
+Transform.up trả về hướng lên lên của vật thể, mũi tên màu xanh, trục y
+Transform.right trả về hướng sang phải của vật thể, mũi thêm đỏ, trục x

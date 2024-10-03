@@ -1,0 +1,15 @@
+SpriteRenderer về cơ bản nó là component giúp hiển thị hình ảnh mà nó đang chiếu tới, 
+hình ảnh đó được chiếu từ trong asset chứ không phải là clone ảnh trong asset rồi gán vào spriterenderer
+
+Trong unity, chỉ có component transform mới truy cập trực tiếp được như this.transform
+
+Để truy cập các đối tượng khác thì:
+ GetComponent<SpriteRenderer>() ->Hàm này sẽ giúp tìm component SpritedRenderer của đối tượng được gắn script.
+-Hàm GetComponent sẽ tìm tất cả các component sau đó sẽ trả về, vì vậy với mỗi lần truy cập đến component SpriteRenderer và gọi trong hàm Update() thì nó sẽ thực hiện rất nhiều lệnh tìm kiếm, cách tối ưu là khởi tạo 1 biến có kiểu dữ liệu là component đó rồi tìm đối tượng SpriteRenderer và gán vô
+
+ví dụ:
+SpriteRenderer a;
+Start()
+{
+a = GetComponent<SpriteRenderer>();
+}

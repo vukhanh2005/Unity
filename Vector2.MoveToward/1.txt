@@ -1,0 +1,2 @@
+transform.position = Vector2.MoveTowards(transform.position, Vector2.zero, speed*Time.deltaTime); di chuyển vị trí hiện tại của object được gán script
+đến điểm 0, 0 với tốc độ là speed*time.deltatime, tương tự với vector3

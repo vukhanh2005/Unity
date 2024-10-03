@@ -1,0 +1,1 @@
+Transform.Rotate(new Vector3(0, 0, 20)*time.deltatime) cộng vào 1 góc xoay theo trục z 20 độ, nói chung là đỡ phải khai báo quaternion các thứ.

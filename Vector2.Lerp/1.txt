@@ -1,0 +1,4 @@
+Cũng giống như Vector2.MoverToward nhưng cách di chuyển được tính toán nội suy, di chuyển khác hẳn MoveToward, nó cũng nhận vào 3 tham số
+transform.position = Vector2.Lerp(transform.position, Vector2.zero, speed*time.deltatime);
+
+di chuyển object được gán script từ vị trí hiện tại đến vị trí 0, 0 với tốc độ speed*time.deltatime;

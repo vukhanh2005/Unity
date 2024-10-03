@@ -1,0 +1,1 @@
+Vector2.Distance(Vector2.zero, Vector2.one) sẽ trả về khoảng cách giữa 2 điểm mà truyền vào, tính vector3 cũng được

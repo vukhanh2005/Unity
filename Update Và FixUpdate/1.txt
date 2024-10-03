@@ -1,0 +1,2 @@
+Update: Gọi sau mỗi 1 frame, Ví dụ Máy có FPS = 60fps -> gọi 60 lần hàm Update trong 1 giây.
+Fixed Update: Không phụ thuộc vào FPS, gọi đều đặn mỗi 1 thời gian nhất định(Unity->Edit->Project Setting->Fixed Time Step)

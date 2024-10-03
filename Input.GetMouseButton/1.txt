@@ -1,0 +1,5 @@
+if (Input.GetMouseButton(0)) Debug.Log("Da nhan chuot trai");
+if (Input.GetMouseButton(1)) Debug.Log("Da nhan chuot phai");
+if (Input.GetMouseButton(2)) Debug.Log("Da nhan chuot giua");
+
+Cũng có GetMouseButtonDown, GetMouseButtonUp.

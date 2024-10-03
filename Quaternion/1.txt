@@ -1,0 +1,10 @@
+để truy cập đến rotation thì không thể gán nó vào 1 vector 3
+Vector3 rotation = transform. rotation (Không thể gán được)
+
+Để truy cập được thì phải dùng Quaternion
+
+Quaternion rotation = transform. rotation;(1)
+Debug. Log(rotation.eulerAngles.x); In ra Độ mà ta có thể hiểu được, rotation.x thì vẫn ra được Độ nhưng nó chỉ dùng cho unity đọc hiểu, trong game 2D thì chỉ can thiệp đến z
+
+Để thay đổi rotation theo ĐỘ mà ta hiểu
+-> rotation.eulerAngle = new Vector3(0, 0, 45); rotation thì lấy ở (1)

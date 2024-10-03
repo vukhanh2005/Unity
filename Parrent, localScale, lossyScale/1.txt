@@ -1,0 +1,27 @@
+1 parent có nhiều child, mỗi child đều có thứ tự
+
+Object
+    Child1
+    Child2
+    Child3
+    Child4
+Ví dụ trên Object là parrent, và có 4 child
+Mỗi child đều có index, thứ tự, để xem object đó thứ tự bao nhiêu thì:
+ this.transform.GetsiblingIndex();
+Còn nếu muốn chuyển vị trí của thằng child thì:
+ this.transform.SetSiblingIndex(1); chuyển về index1
+
+SetAsFirstSibling, SetAsLastSibling chuyển index về đầu và cuối
+
+this.transform.GetChild(0); truy cập đến thằng child ở index 0
+
+this.transform.parent.childCount: truy cập vào thg cha và đếm xem có bao nhiêu thằng con
+
+this.GetComponentInChildren<SpriteRenderer>() truy cập đến thằng con đầu tiên có component là SpriteRenderer
+
+this.GetComponentsInChildren<SpriteRenderer>() trả về 1 mảng các đối tượng là SpriteRenderer của những thằng child có đối tượng đó, nếu cú pháp là this.GetComponentsInChildren<SpriteRenderer>(true), thì kể cả những thằng con đang deactive vẫn cho thêm vào mảng
+
+this.GetComponentInParent<SpriteRenderer> truy cập đến đối tượng SpriteRenderer của parent 
+localScale: khi 1 parent tăng scale từ 1, 1, 1 lên 4, 4, 4 thì scale của nó tăng gấp 4 lần, như vậy những thằng con(child) của nó cũng tăng gấp 4
+
+lossyScale: là 1 giá trị chỉ đọc, chưa rõ cú pháp và cách sử dụng -_-
